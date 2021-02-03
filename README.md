@@ -1,8 +1,8 @@
-# Frontend Mentor Challenge - Four card feature section
+# Frontend Mentor Challenge
 
-## Hello! 👋
+## Hello, Hola! 👋
 
-Thanks for checking out my "Four cards feature section web design". I used a FrontEnd Mentor challenge to create this four card freature section. I would recommend this challenge if you already feel comfortable with HTML and CSS skills, but not as a starting challenge if your a newie. Some essential skills for this challenge include knowledge of CSS Flexbox, div elements, padding, margins and box shadows. I think this is a great challenge to apply and check out your CSS Flexbox skills as well as enhance your CSS styling. It's also a great way to drill down on thinking about div containers and how to use them to your advantage when spliting up the content.
+Thanks for checking out my "Four cards feature section" web design. I used a FrontEnd Mentor challenge to create this four card freature section. I would recommend this challenge if you already feel comfortable with HTML and CSS skills, but not as a starting challenge if your a newbie. Some essential skills for this challenge include knowledge of CSS Flexbox, div elements, padding, margins and box shadows. I think this is a great challenge to test your CSS Flexbox skills as well as enhance your CSS styling. It's also a great way to drill down on thinking about div containers and how to use them to your advantage when spliting up the content.
 
 **Personal Experience Suggestions:**
 I would encourage you create a wireframe of the design related to how your div containers will divide up all the content. Another suggestion is to think about the cards horizontially and vertically.
