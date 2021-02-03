@@ -1,45 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <main>  <!-- main div that holds all the content -->
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+     <!-- first section -->
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+     <div id="first-section">
+      <h1 class="first-h1">Reliable, efficient delivery</h1>
+      <h1 class="second-h1">Powered by Technology</h1>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+      <p>Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+    </div>
 
-  
+  <!-- End of first section -->
+
+  <!-- div for all four squares -->
+  <div id="second-section">
+
+    <!-- first square div -->
+    <div id="supervisor" class="horizontal">
+      <h3>Supervisor</h3>
+      <p>Monitors activity to identify project roadblocks</p>
+        <img src="images/icon-supervisor.svg" alt="supervisor favicon">
+    </div>
+
+<div id='vertical-container'>  <!-- vertical div -->
+ <!-- second square div -->
+    <div id="team" class='vertical'>
+      <h3>Team Builder</h3>
+      <p>Scans our talent network to create the optimal team for your project</p>
+        <img src="images/icon-team-builder.svg" alt="team builder favicon">
+    </div>
+
+ <!-- third square div -->
+    <div id="karma" class='vertical'>
+      <h3>Karma</h3>
+      <p>Regularly evaluates our talent to ensure quality</p>
+        <img src="images/icon-karma.svg" alt="karma favicon">
+    </div>
+  </div>  <!-- end of vertical div -->
+
+ <!-- forth square div -->
+    <div id="calculator" class='horizontal'>
+      <h3>Calculator</h3>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+        <img src="images/icon-calculator.svg" alt="calculator favicon">
+    </div>
+
+  </div> <!-- End of second section -->
+
+  </main>
+
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/BennettElisa">Elisa Bennett</a>.
     </p>
   </footer>
+</div>
 </body>
+
 </html>
